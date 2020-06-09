@@ -1,0 +1,16 @@
+h1 {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+
+.random {
+	color: green;
+	font-size: 20px;
+}
+
+ol {
+	color: red;
+	font-size: 20px;
+	text-align : left;
+}
