@@ -11,7 +11,7 @@
 
 	section {
 		background-color: grey;
-		height: 200px;
+		height: 250px;
 		width: 80%;
 	}
 
@@ -19,16 +19,17 @@
 		position: relative;
 		top: -35px;
 		font-size: 18px;
+		text-overflow: auto;
 	}
 
 	.positioning{
-		width: 30%;
+		width: 35%;
 		height: 40px;
 		font-size: 25px;
 		border: 1px solid black;
 		text-align: center;
 		position: relative;
-		left: 70%;
+		left: 65%;
 		top: -25px;
 	}
 
