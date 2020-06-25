@@ -1,58 +1,83 @@
-@media (max-width: 767px){
-	*{
-		box-sizing: border-box;
-	}
-	h1 {
-		color: black;
-		font-size: 41px;
-		text-align: center;
-		font-weight: bold;
-	}
-
-	section {
-		background-color: grey;
-		height: 250px;
-		width: 80%;
-	}
-
-	.text {
-		position: relative;
-		top: -35px;
-		font-size: 18px;
-	}
-
-	.positioning{
-		width: 35%;
-		height: 40px;
-		font-size: 23px;
-		border: 1px solid black;
-		text-align: center;
-		position: relative;
-		left: 65%;
-		top: -25px;
-	}
-
-	.sec{
-		position: relative;
-		border: 1px solid black;
-		padding-left: 10px;
-		left: 10%;
-		margin-bottom: 25px;
-		overflow: auto;
-	}
-
-	#chicken{
-		background-color: #DDA0DD;
-		color: black;
-	}
-
-	#beef{
-		background-color: #B22222;
-		color: white;
-	}
-
-	#sushi{
-		background-color: #FFFFE0;
-		color: black;
-	}
+*{
+	box-sizing: border-box;
 }
+
+body {
+	font-size: 16px;
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-nav{
+	background-color: black; /*#1E1E1E;*/
+	border-radius: 0;
+	border: 0;
+}
+
+.divAdj{
+	padding-left: 0;
+	margin-left: 0;
+	border-left: 0;
+	height: 30px;
+}
+
+/* #logo-img{
+	background: url("QuotesLogo (1).jpg") no-repeat;
+	width: 30px;
+	height: 30px;
+	margin: 1px 1px 1px 0px; 
+} */
+
+#mainTitle{
+	font-size: 20px;
+	font-family: American Typewriter, serif;
+	color: white;
+	float: left;
+	margin-right: 10px;
+}
+
+#searchBar{
+	position: absolute;
+	right: 0;
+	margin-right: 10px;
+}
+
+#searchBar input{
+	height: 30px;
+	width: 200px;
+	font-size: 17px;
+	padding: 10px;
+}
+
+#searchBar button{
+	background: white;
+	font-size: 17px;
+}
+
+#searchBar button:hover{
+	background: grey;
+}
+
+#menuButtons{
+	position: relative;
+	font-family: American Typewriter, serif;
+	visibility: show;
+	color: white;
+	background-color: #1E1E1E;
+	float: left;
+	left: 20px;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	width: 125px;
+	height: 40px;
+	bottom: 5px;
+	margin-right: 2px;
+}
+
+#bgImage{
+	background-image: url("nature2.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
