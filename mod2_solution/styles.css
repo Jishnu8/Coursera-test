@@ -121,6 +121,10 @@ body {
 		width: 58px;
 		height: 40px;
 	}
+
+	#menuButtons{
+		font-size: 15px;
+	}
 }
 
 
