@@ -36,12 +36,6 @@ body {
 	margin-right: 10px;
 }
 
-#searchBar{
-	position: absolute;
-	right: 0;
-	margin-right: 10px;
-}
-
 #searchBar input{
 	height: 30px;
 	width: 200px;
@@ -58,6 +52,23 @@ body {
 	background: grey;
 }
 
+#searchBarSmall{
+	position: relative;
+	left: 27.5%;
+	height: 75px;
+	top: 25px;
+}
+
+#searchBarSmall input{
+	height: 30px;
+	width: 40%;
+}
+
+#searchBarSmall button:hover{
+	background: grey;
+}
+
+
 #menuButtons{
 	position: relative;
 	font-family: American Typewriter, serif;
@@ -69,8 +80,6 @@ body {
 	padding: 0;
 	border: 0;
 	margin: 0;
-	width: 125px;
-	height: 40px;
 	bottom: 5px;
 	margin-right: 2px;
 }
@@ -81,3 +90,53 @@ body {
 	background-repeat: no-repeat;
 }
 
+@media (min-width: 900px){
+	#menuButtons{
+		width: 125px;
+		height: 40px;
+	}
+	#searchBar{
+		position: absolute;
+		right: 0; 
+		margin-right: 10px;
+	}
+	#searchBarSmall{
+		visibility: hidden;
+	}
+}
+
+ @media (min-width: 767px) and (max-width: 900px){
+	#menuButtons{
+		width: 90px;
+		height: 40px;
+	}
+	#searchBar{
+		position: absolute;
+		right: 0; 
+		margin-right: 10px;
+	}
+	#searchBarSmall{
+		visibility: hidden;
+	}
+} 
+
+@media (max-width: 500px){
+	#searchBar{
+		visibility: hidden;
+	}
+	#menuButtons{
+		width: 60px;
+		height: 40px;
+	}
+}
+
+
+@media (max-width: 767px){
+	#searchBar{
+		visibility: hidden;
+	}
+	#menuButtons{
+		width: 80px;
+		height: 40px;
+	}
+}
