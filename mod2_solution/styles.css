@@ -101,6 +101,10 @@ body {
 	text-align: right;
 }
 
+.space{
+	height: 50px;
+}
+
 @media (min-width: 900px){
 	#menuButtons{
 		width: 125px;
