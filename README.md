@@ -1,2 +1,2 @@
-# Coursera-test
-Coursera test repisototy
+# Quotes
+A website to display quotes.
