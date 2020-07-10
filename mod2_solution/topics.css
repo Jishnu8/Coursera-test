@@ -6,7 +6,7 @@ html{
 	overflow-x: hidden;
 }
 
-.grid-container {
+/* .grid-container {
     display: grid;
 }
 
@@ -15,7 +15,7 @@ html{
     padding: 0px;
     margin: 0px;
     border: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     enable-background: initial;
   }
@@ -26,42 +26,132 @@ html{
 
 @media (min-width: 900px){
     .grid-container{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(6, 1fr);
     }
 
     .grid-container a{
-        font-size: 30px;
+        font-size: 18px;
     }
 }
 
 
 @media (min-width: 767px) and (max-width: 900px){
     .grid-container{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 
     .grid-container a{ 
-        font-size: 28px;
+        font-size: 16px;
     }
 }
 
 
 @media (min-width: 500px) and (max-width: 767px){
     .grid-container{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .grid-container a{
-        font-size: 25px;
+        font-size: 14px;
     }
 }
 
 @media (max-width: 500px){
     .grid-container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .grid-container a{
-        font-size: 25px;
+        font-size: 13px;
     }
+} */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column {
+    float: left;
+    width: 16.6%;
+    padding: 10px;
+  }
+
+.links {
+    color: white;
+    padding-left: 15px;
+    margin: 0px;
+    border: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    enable-background: initial;  
+}
+
+.links:hover{
+    color: white;
+}
+
+.topics{
+    color: white;
+    padding-left: 15px;
+    text-decoration: underline;
+}
+
+@media (min-width: 900px){
+    .column{
+        width: 16.6%;
+    }
+
+    .links{
+        font-size: 18px;
+    }
+
+    .topics{
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 767px) and (max-width: 900px){
+    .column{
+        width: 20%;
+    }
+
+    .links{ 
+        font-size: 16px;
+    }
+
+    .topics{
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 767px){
+    .column{
+        width: 25%;
+    }
+
+    .links{
+        font-size: 14px;
+    }
+
+    .topics{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px){
+    .column{
+        width: 33.3%;
+    }
+
+    .links{
+        font-size: 13px;
+    }
+
+    .topics{
+        font-size: 13px;
+    } 
 }
