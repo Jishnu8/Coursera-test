@@ -132,7 +132,7 @@ body {
 	}
 }
 
- @media (min-width: 767px) and (max-width: 900px){
+@media (min-width: 767px) and (max-width: 900px){
 	#menuButtons{
 		width: 90px;
 		height: 40px;
