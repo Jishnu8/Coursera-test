@@ -11,11 +11,13 @@ html{
 }
 
 .grid-container a {
+    display: flex;
     color: white;
     padding: 0px;
     border: 0px;
-    height: 150px;
-    text-align: center;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
     enable-background: initial;
     background-image:  url("nature2.jpeg");
     background-repeat: no-repeat;
@@ -33,7 +35,7 @@ html{
 
     .grid-container a{
         font-size: 25px;
-        margin: 0px 10px 20px 10px;
+        margin: 20px 10px 0px 10px;
     }
 }
 
@@ -45,7 +47,7 @@ html{
 
     .grid-container a{ 
         font-size: 23px;
-        margin: 0px 8px 16px 8px;
+        margin: 16px 8px 0px 8px;
     }
 }
 
@@ -57,18 +59,19 @@ html{
 
     .grid-container a{
         font-size: 20px;
-        margin: 0px 10px 20px 10px;
+        margin: 20px 10px 0px 10px;
     }
 }
 
 @media (max-width: 500px){
     .grid-container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .grid-container a{
-        font-size: 18px;
-        margin: 0px 8px 16px 8px;
+        font-size: 25px;
+        height: 225px;
+        margin: 16px 8px 0px 8px;
     }
 }
 
