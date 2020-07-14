@@ -13,12 +13,14 @@ html{
 .grid-container a {
     color: white;
     padding: 0px;
-    margin: 0px;
     border: 0px;
-    margin-bottom: 10px;
+    height: 150px;
     text-align: center;
     enable-background: initial;
-  }
+    background-image:  url("nature2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .grid-container a:hover{
     color :	white;
@@ -26,43 +28,47 @@ html{
 
 @media (min-width: 900px){
     .grid-container{
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .grid-container a{
-        font-size: 18px;
+        font-size: 25px;
+        margin: 0px 10px 20px 10px;
     }
 }
 
 
 @media (min-width: 767px) and (max-width: 900px){
     .grid-container{
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .grid-container a{ 
-        font-size: 16px;
+        font-size: 23px;
+        margin: 0px 8px 16px 8px;
     }
 }
 
 
 @media (min-width: 500px) and (max-width: 767px){
     .grid-container{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .grid-container a{
-        font-size: 14px;
+        font-size: 20px;
+        margin: 0px 10px 20px 10px;
     }
 }
 
 @media (max-width: 500px){
     .grid-container{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .grid-container a{
-        font-size: 13px;
+        font-size: 18px;
+        margin: 0px 8px 16px 8px;
     }
 }
 
