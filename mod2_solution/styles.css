@@ -191,13 +191,8 @@ input[type = text]:focus {
 		visibility: hidden;
 	} */
 
-	input[type =text]{
-		margin-top: 5px;
-		height: 32px;
-	}
-
 	input[type =text]:focus{
-		width: 90%;
+		width: 95%;
 	} 
 
 	.quoteText{
@@ -228,8 +223,6 @@ input[type = text]:focus {
 
 	input[type ="text"]{
 		float: right;
-		margin-top: 5px;
-		height: 32px;
 	}
 
 	input[type =text]:focus{
@@ -237,7 +230,7 @@ input[type = text]:focus {
 	} 
 
 	.divCon{
-		width: 90%;
+		width: 108%;
 		right: 5px;
 	}
 
@@ -255,6 +248,11 @@ input[type = text]:focus {
 		visibility: hidden;
 	} */
 
+	#mainTitle{
+		font-size: 20px;
+		margin-right: 5px;
+	}
+
 	#searchBar{
 		position: absolute;
 		right: 0; 
@@ -262,14 +260,12 @@ input[type = text]:focus {
 	}
 
 	#menuButtons{
-		width: 58px;
+		width: 55px;
 		height: 52px;
 	}
 
 	input[type ="text"]{
 		float: right;
-		margin-top: 5px;
-		height: 32px;
 	}
 
 	input[type =text]:focus{
@@ -277,7 +273,7 @@ input[type = text]:focus {
 	} 
 
 	.divCon{
-		width: 80%;
+		width: 108%;
 		right: 5px;
 	}
 
