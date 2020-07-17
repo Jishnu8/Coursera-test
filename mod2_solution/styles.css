@@ -23,18 +23,22 @@ body {
 	padding-left: 0;
 	margin-left: 0;
 	border-left: 0;
-	height: 30px;
+	height: 42px;
 }
 
 #mainTitle{
-	font-size: 20px;
+	display: flex;
+	font-size: 25px;
 	font-family: American Typewriter, serif;
 	color: white;
 	float: left;
 	margin-right: 10px;
+	height: 38px;
+	justify-content: center;
+	align-items: center;
 }
 
-#searchBar input{
+/* #searchBar input{
 	height: 30px;
 	width: 200px;
 	font-size: 17px;
@@ -48,9 +52,9 @@ body {
 
 #searchBar button:hover{
 	background: grey;
-}
+} */
 
-#searchBarSmall{
+/* #searchBarSmall{
 	position: relative;
 	left: 27.5%;
 	height: 100px;
@@ -64,7 +68,7 @@ body {
 
 #searchBarSmall button:hover{
 	background: grey;
-}
+} */
 
 
 #menuButtons{
@@ -72,7 +76,8 @@ body {
 	font-family: American Typewriter, serif;
 	visibility: show;
 	color: white;
-	background-color: #1E1E1E;
+	/* background-color: #1E1E1E; */
+	background-color: black;
 	float: left;
 	left: 20px;
 	padding: 0;
@@ -80,6 +85,18 @@ body {
 	margin: 0;
 	bottom: 5px;
 	margin-right: 2px;
+}
+
+#menuButtons:hover{
+	background-color: #1E1E1E;
+}
+
+#menuButtons:active{
+	background-color: black;
+}
+
+#menuButtons:focus{
+	background-color: black;
 }
 
 #bgImage{
@@ -109,19 +126,47 @@ body {
 	height: 50px;
 }
 
+input[type = text] {
+	width: 0px;
+	margin-top: 0px;
+	height: 42px;
+	font-size: 17px;
+	color: white;
+	border: 0px;
+	padding: 12px 20px 12px 40px;
+	background-color: black;
+	background-image: url('search.png');
+	background-position: 8px;
+	background-size: 25px;
+	background-repeat: no-repeat;
+	-webkit-transition: width 0.4s ease-in-out;	
+	transition: width 0.4s ease-in-out;
+}
+
+input[type = text]:focus {
+	width: 95%;
+	border: 2px white;
+    border-radius: 4px;
+}
+
+.divCon{
+	position: absolute;
+	right: 0;
+}
+
 @media (min-width: 900px){
 	#menuButtons{
-		width: 125px;
-		height: 40px;
+		width: 120px;
+		height: 52px;
 	}
 	#searchBar{
 		position: absolute;
 		right: 0; 
 		margin-right: 10px;
 	}
-	#searchBarSmall{
+	/* #searchBarSmall{
 		visibility: hidden;
-	}
+	} */
 
 	.quoteText{
 		font-size: 30px;
@@ -134,17 +179,26 @@ body {
 
 @media (min-width: 767px) and (max-width: 900px){
 	#menuButtons{
-		width: 90px;
-		height: 40px;
+		width: 85px;
+		height: 52px;
 	}
 	#searchBar{
 		position: absolute;
 		right: 0; 
 		margin-right: 10px;
 	}
-	#searchBarSmall{
+	/* #searchBarSmall{
 		visibility: hidden;
+	} */
+
+	input[type =text]{
+		margin-top: 5px;
+		height: 32px;
 	}
+
+	input[type =text]:focus{
+		width: 90%;
+	} 
 
 	.quoteText{
 		font-size: 28px;
@@ -157,12 +211,34 @@ body {
 
 
 @media (min-width: 500px) and (max-width: 767px){
-	#searchBar{
+	/* #searchBar{
 		visibility: hidden;
+	} */
+
+	#searchBar{
+		position: absolute;
+		right: 0; 
+		margin-right: 10px;
 	}
+
 	#menuButtons{
-		width: 80px;
-		height: 40px;
+		width: 76px;
+		height: 52px;
+	}
+
+	input[type ="text"]{
+		float: right;
+		margin-top: 5px;
+		height: 32px;
+	}
+
+	input[type =text]:focus{
+		width: 90%;
+	} 
+
+	.divCon{
+		width: 90%;
+		right: 5px;
 	}
 
 	.quoteText{
@@ -175,12 +251,34 @@ body {
 }
 
 @media (max-width: 500px){
-	#searchBar{
+	/* #searchBar{
 		visibility: hidden;
+	} */
+
+	#searchBar{
+		position: absolute;
+		right: 0; 
+		margin-right: 10px;
 	}
+
 	#menuButtons{
 		width: 58px;
-		height: 40px;
+		height: 52px;
+	}
+
+	input[type ="text"]{
+		float: right;
+		margin-top: 5px;
+		height: 32px;
+	}
+
+	input[type =text]:focus{
+		width: 90%;
+	} 
+
+	.divCon{
+		width: 80%;
+		right: 5px;
 	}
 
 	#menuButtons{
