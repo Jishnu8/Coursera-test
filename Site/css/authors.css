@@ -1,0 +1,30 @@
+.grid-container a{
+  text-decoration: none;
+  justify-content: initial;
+  align-items: initial;
+}
+
+@media (min-width: 900px){
+    .grid-container a{
+      font-size: 40px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 900px){
+    .grid-container a{
+      font-size: 36px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 767px){
+    .grid-container a{
+      font-size: 32px;
+    }
+}
+
+@media (max-width: 500px){
+    .grid-container a{
+      font-size: 40px;
+    }
+} 
+
