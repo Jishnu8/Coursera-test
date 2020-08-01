@@ -13,6 +13,7 @@ html{
 .grid-container a {
     display: flex;
     color: white;
+    opacity: 100;
     padding: 0px;
     border: 0px;
     height: 200px;
@@ -75,7 +76,11 @@ html{
     }
 }
 
-/* .row:after {
+
+
+
+
+.row:after {
     content: "";
     display: table;
     clear: both;
@@ -88,7 +93,7 @@ html{
   }
 
 .links {
-    color: white;
+    color: black;
     padding-left: 15px;
     margin: 0px;
     border: 0px;
@@ -98,14 +103,15 @@ html{
 }
 
 .links:hover{
-    color: white;
+    color: black;
 }
 
 .topics{
-    color: white;
+    color: black;
     padding-left: 15px;
     text-decoration: underline;
 }
+
 
 @media (min-width: 900px){
     .column{
@@ -163,4 +169,4 @@ html{
     .topics{
         font-size: 13px;
     } 
-} */
+} 
