@@ -206,6 +206,11 @@ input[type = text]:focus {
     color :	white;
 }
 
+.mostPopularCaption{
+	color: black;
+	text-align: left;
+}
+
 @media (min-width: 900px){
 	#menuButtons{
 		width: 120px;
@@ -235,13 +240,18 @@ input[type = text]:focus {
     .mostPopularContainer a{
         font-size: 25px;
 		margin: 30px;
-		text-indent: -9999px;
 	}
 	
 	.quoteOfTheDay{
 		font-size: 20px;
 		width: 60%;
 		left: 20%;
+	}
+
+	.mostPopularCaption{
+		margin: 30px;
+		margin-top : 0px;
+		font-size: 19px;
 	}
 }
 
@@ -272,12 +282,12 @@ input[type = text]:focus {
 	}
 
 	.mostPopularContainer{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .mostPopularContainer a{
         font-size: 23px;
-		margin: 24px;
+		margin: 30px;
 	}
 	
 	.quoteDayHeader{
@@ -285,9 +295,20 @@ input[type = text]:focus {
 	}
 
 	.quoteOfTheDay{
-		font-size: 19px;
+		font-size: 18px;
 		width: 70%;
 		left: 15%;
+	}
+
+	.mostPopularCaption{
+		margin: 30px;
+		margin-top : 0px;
+		font-size: 17px;
+	}
+
+	.exception{
+		position: absolute;
+		visibility: hidden;
 	}
 } 
 
@@ -335,7 +356,7 @@ input[type = text]:focus {
 
     .mostPopularContainer a{
         font-size: 20px;
-        margin: 30px;
+        margin: 15px;
 	}
 	
 	.quoteDayHeader{
@@ -346,6 +367,17 @@ input[type = text]:focus {
 		font-size: 18px;
 		width: 80%;
 		left: 10%;
+	}
+
+	.exception{
+		position: absolute;
+		visibility: hidden;
+	}
+
+	.mostPopularCaption{
+		margin: 30px;
+		margin-top : 0px;
+		font-size: 16px;
 	}
 }
 
@@ -413,6 +445,17 @@ input[type = text]:focus {
 		font-size: 17px;
 		width: 90%;
 		left: 5%;
+	}
+
+	.mostPopularCaption{
+		margin: 40px;
+		margin-top : 0px;
+		font-size: 17px;
+	}
+
+	.smallException{
+		position: absolute;
+		visibility: hidden;
 	}
 }
 

@@ -98,3 +98,59 @@
   	from {opacity: .4}
   	to {opacity: 1}
 }
+
+@media (min-width: 900px){
+	.slideshow-container{
+		height: 400px
+	}
+
+	.mySlides{
+		height: 400px;
+	}
+
+	.slidesImage{
+		height: 400px;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 900px){
+	.slideshow-container{
+		height: 375px
+	}
+
+	.mySlides{
+		height: 375px;
+	}
+
+	.slidesImage{
+		height: 375px;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 767px){
+	.slideshow-container{
+		height: 330px
+	}
+
+	.mySlides{
+		height: 330px;
+	}
+
+	.slidesImage{
+		height: 330px;
+	}
+}
+
+@media (max-width: 500px){
+	.slideshow-container{
+		height: 280px
+	}
+
+	.mySlides{
+		height: 280px;
+	}
+
+	.slidesImage{
+		height: 280px;
+	}
+}
