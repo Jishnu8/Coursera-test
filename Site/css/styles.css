@@ -253,6 +253,11 @@ input[type = text]:focus {
 		margin-top : 0px;
 		font-size: 19px;
 	}
+
+	.bigException{
+		position: absolute;
+		visibility: hidden;
+	}
 }
 
 @media (min-width: 767px) and (max-width: 900px){
@@ -307,6 +312,11 @@ input[type = text]:focus {
 	}
 
 	.exception{
+		position: absolute;
+		visibility: hidden;
+	}
+
+	.bigException{
 		position: absolute;
 		visibility: hidden;
 	}
@@ -370,6 +380,11 @@ input[type = text]:focus {
 	}
 
 	.exception{
+		position: absolute;
+		visibility: hidden;
+	}
+
+	.bigException{
 		position: absolute;
 		visibility: hidden;
 	}
@@ -448,7 +463,7 @@ input[type = text]:focus {
 	}
 
 	.mostPopularCaption{
-		margin: 40px;
+		margin: 30px;
 		margin-top : 0px;
 		font-size: 17px;
 	}
