@@ -29,6 +29,11 @@ html{
     color :	white;
 }
 
+.topicsCaption{
+	color: black;
+	text-align: center;
+}
+
 @media (min-width: 900px){
     .grid-container{
         grid-template-columns: repeat(3, 1fr);
@@ -36,8 +41,13 @@ html{
 
     .grid-container a{
         font-size: 25px;
-        margin: 10px 10px 10px 10px;
+        margin: 15px;
     }
+
+    .topicsCaption{
+		margin: 0px 20px 5px 20px;
+		font-size: 19px;
+	}
 }
 
 
@@ -48,8 +58,13 @@ html{
 
     .grid-container a{ 
         font-size: 23px;
-        margin: 8px 8px 8px 8px;
+        margin: 8px;
     }
+
+    .topicsCaption{
+		margin: 0px 10px 7px 10px;
+		font-size: 17px;
+	}
 }
 
 
@@ -60,8 +75,13 @@ html{
 
     .grid-container a{
         font-size: 20px;
-        margin: 10px 10px 10px 10px;
+        margin: 10px;
     }
+
+    .topicsCaption{
+        margin: 0px 15px 7px 15px;
+		font-size: 16px;
+	}
 }
 
 @media (max-width: 500px){
@@ -72,8 +92,13 @@ html{
     .grid-container a{
         font-size: 25px;
         height: 225px;
-        margin: 8px 8px 8px 8px;
+        margin: 25px;
     }
+
+    .topicsCaption{
+        margin: 0px 15px 7px 15px;
+        font-size: 17px;
+	}
 }
 
 
