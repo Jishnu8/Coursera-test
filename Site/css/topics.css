@@ -31,7 +31,7 @@ html{
 
 .topicsCaption{
 	color: black;
-	text-align: center;
+    text-align: center;
 }
 
 @media (min-width: 900px){
