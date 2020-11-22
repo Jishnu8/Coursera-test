@@ -106,6 +106,7 @@ body {
 	background-image: url("BIRD.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	visibility: visible;
 }
 
